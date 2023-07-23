@@ -1,13 +1,16 @@
 export default function SectionAbout() {
   return (
-    <div className="h-full md:grid md:grid-cols-2 md:w-screen md:h-screen">
-      <div className="md:h-screen order-last">
-        <img src="/loren.webp" className="h-full w-full object-cover" />
+    <div className="md:grid md:grid-cols-2 md:w-screen ">
+      <div className="md:h-screen order-last md:sticky top-0 h-full">
+        <img
+          src="/loren.webp"
+          className=" max-h-96 md:max-h-none h-full w-full object-cover"
+        />
       </div>
-      <section>
-        <div className="bg-white p-4 md:max-w-md md:ml-auto md:overflow-auto md:h-screen md:py-8 md:pr-8">
+      <section className=" md:px-8">
+        <div className="prose p-4 mx-auto">
           <h1>The Artist</h1>
-          <div className=" space-y-2 text-sm">
+          <div>
             <p>
               Highly creative, passionate, and dexterous, Loren Valle is a
               self-taught fine artist who aims to stimulate and empower others

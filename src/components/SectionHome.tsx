@@ -1,11 +1,11 @@
 export default function SectionHome() {
   return (
-    <div className="md:grid grid-cols-2 w-full h-full">
-      <div className="md:h-full">
+    <div className="sm:grid grid-cols-2 w-full h-full">
+      <div className="sm:h-full">
         <img src="/brushes.webp" className="h-full w-full object-cover" />
       </div>
-      <section className=" flex flex-col items-center justify-center p-4">
-        <div className=" max-w-sm">
+      <section className="prose mx-auto flex flex-col items-center justify-center">
+        <div className="p-4">
           <h1>Kumusta!</h1>
           <p>
             Inspired by the mundane aspects of life and by the common objects

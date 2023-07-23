@@ -15,13 +15,13 @@ export default function NavBtn({
   return (
     <button
       type="button"
-      className="flex flex-col items-center justify-center overflow-hidden relative group hover:bg-raisin-black hover:text-rosy-brown"
+      className="flex flex-col items-start px-4 md:items-center md:px-0 justify-center overflow-hidden relative group hover:bg-raisin-black hover:text-rosy-brown"
       onClick={onClick}
     >
       <span className="text-[6rem] md:text-[18rem] font-display relative z-10 transition-transform group-hover:-rotate-2">
         {letter}
       </span>
-      <span className="absolute top-2 left-2 md:top-8 md:left-8 text-sm md:text-lg font-display transition md:opacity-0 md:group-hover:opacity-100 md:group-hover:-translate-y-2">
+      <span className="absolute top-2 left-4 md:top-auto md:bottom-4 text-sm md:text-lg font-display">
         {heading}
       </span>
       <div className="hidden md:group-hover:block absolute h-full w-full">
