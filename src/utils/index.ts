@@ -1,1 +1,1 @@
-export type RouteName = "home" | "about" | "portfolio" | "contact" | "follow";
+export type RouteName = "home" | "about" | "portfolio" | "store" | "follow";

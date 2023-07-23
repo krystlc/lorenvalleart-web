@@ -4,7 +4,6 @@ import Chevron from "@/assets/chevron.svg";
 import SectionHome from "./components/SectionHome";
 import SectionAbout from "./components/SectionAbout";
 import SectionPortfolio from "./components/SectionPortfolio";
-import SectionContact from "./components/SectionContact";
 import SectionFollow from "./components/SectionFollow";
 import { RouteName } from "./utils";
 
@@ -34,9 +33,9 @@ const sections: {
   },
   {
     letter: "E",
-    heading: "Contact",
+    heading: "Store",
     coverSrc: "/painting.webp",
-    routeName: "contact",
+    routeName: "store",
   },
   {
     letter: "N",
@@ -61,8 +60,8 @@ function App() {
       case "portfolio":
         setSelectedSection(<SectionPortfolio />);
         break;
-      case "contact":
-        setSelectedSection(<SectionContact />);
+      case "store":
+        window.open("https://www.etsy.com/shop/lorenvalleart", "_blank");
         break;
       case "follow":
         setSelectedSection(<SectionFollow />);
