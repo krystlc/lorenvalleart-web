@@ -7,8 +7,8 @@ export default function SectionAbout() {
           className=" max-h-96 md:max-h-none h-full w-full object-cover"
         />
       </div>
-      <section className=" md:px-8">
-        <div className="prose p-4 mx-auto">
+      <section className="p-4 md:px-8">
+        <div className="prose mx-auto">
           <h1>The Artist</h1>
           <div>
             <p>
