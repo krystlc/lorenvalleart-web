@@ -5,7 +5,7 @@ export default function SectionHome() {
         <img src="/brushes.webp" className="h-full w-full object-cover" />
       </div>
       <section className="prose mx-auto flex flex-col items-center justify-center">
-        <div className="p-4">
+        <div className="p-4 sm:p-8">
           <h1>Kumusta!</h1>
           <p>
             Inspired by the mundane aspects of life and by the common objects
