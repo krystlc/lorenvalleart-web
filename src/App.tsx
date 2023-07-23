@@ -87,7 +87,7 @@ function App() {
         })}
       </header>
       {selectedSection && (
-        <main className="absolute inset-0 bg-white z-10 overflow-auto">
+        <main className="absolute inset-0 bg-rosy-brown z-10 overflow-auto">
           <button
             type="button"
             className="absolute top-4 left-2"

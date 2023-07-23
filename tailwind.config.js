@@ -13,7 +13,7 @@ export default {
       colors: {
         "rosy-brown": "#C6A7A4",
         "raisin-black": "#2A292E",
-        "redwood-dull": "#9B5E59",
+        "redwood-dull": "#60413e",
         redwood: "#AA4442",
       },
     },
