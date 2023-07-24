@@ -37,7 +37,7 @@ export default function SectionFollow() {
               href={link.href}
               target="_blank"
               title={link.title}
-              className="flex items-center gap-2"
+              className="flex items-center gap-2 link"
             >
               {link.icon && (
                 <img src={link.icon} alt="Back" className="h-8 w-8" />

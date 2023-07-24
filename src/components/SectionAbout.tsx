@@ -7,7 +7,7 @@ export default function SectionAbout() {
           className=" max-h-96 md:max-h-none h-full w-full object-cover"
         />
       </div>
-      <section className="p-4 md:px-8">
+      <section className="p-4 md:p-12">
         <div className="prose mx-auto">
           <h1>The Artist</h1>
           <div>
@@ -51,6 +51,59 @@ export default function SectionAbout() {
               drawings, Loren delivers memorable fine art that encourages both
               new and experienced artists to reach their full potential as well.
             </p>
+
+            <h2>Inspiration</h2>
+            <p>
+              Though she sees the beauty in everything, what Loren is truly
+              drawn to is the mundane things in life; the things that go
+              unnoticed and are often overlooked. Cracks on the side of a
+              building, loose screws in a bathroom wall, cattle grazing on the
+              side of a farm road. She keeps her mind open to these elements,
+              allowing for spontaneous inspirations to flow in as they arise to
+              develop amazing art from it.
+            </p>
+            <h2>Media</h2>
+            <ul>
+              <li>
+                <p>Shuttle pens</p>
+              </li>
+              <li>
+                <p>Faber-Castell pencils</p>
+              </li>
+              <li>
+                <p>Uni-ball signo pens</p>
+              </li>
+              <li>
+                <p>Sakura Pigma Micron Pens</p>
+              </li>
+              <li>
+                <p>Prismacolor colored pencils</p>
+              </li>
+              <li>
+                <p>Strathmore 400 Series Toned Sketch Paper Pad</p>
+              </li>
+              <li>
+                <p>Krylon Kamar Varnish</p>
+              </li>
+              <li>
+                <p>Gamblin 1980 oil colors</p>
+              </li>
+              <li>
+                <p>Gamblin artist’s oil colors</p>
+              </li>
+              <li>
+                <p>Winsor &amp; Newton artisan water mixable oil colours</p>
+              </li>
+              <li>
+                <p>Winsor &amp; Newton Winton oil paints</p>
+              </li>
+              <li>
+                <p>Artist’s loft gallery wrapped heavy duty canvas</p>
+              </li>
+              <li>
+                <p>Gamblin Gamvar gloss</p>
+              </li>
+            </ul>
           </div>
         </div>
       </section>

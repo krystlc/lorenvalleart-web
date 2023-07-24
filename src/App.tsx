@@ -90,10 +90,10 @@ function App() {
         <main className="absolute inset-0 bg-rosy-brown z-10 overflow-auto">
           <button
             type="button"
-            className="absolute top-4 left-2"
+            className="fixed top-0 left-0 bg-white/10 backdrop-blur-sm p-2"
             onClick={() => setSelectedSection(null)}
           >
-            <img src={Chevron} alt="Back" className="h-10 w-10 " />
+            <img src={Chevron} alt="Back" className="h-8 w-8" />
             <span className="sr-only">Back</span>
           </button>
           {selectedSection}
