@@ -1,0 +1,34 @@
+button.nav-btn {
+  @apply flex flex-col items-start px-4 md:items-center md:px-0 justify-center overflow-hidden relative md:hover:text-rosy-brown;
+}
+button.nav-btn .nav-btn--letter {
+    @apply text-[6rem] md:text-[18rem] font-display relative z-10 transition-transform;
+}
+button.nav-btn .nav-btn--heading {
+    @apply absolute z-10 top-2 left-4 md:top-auto md:bottom-4 text-sm md:text-lg font-display;
+}
+button.nav-btn .nav-btn--cover {
+    @apply hidden absolute inset-0;
+}
+button.nav-btn .nav-btn--cover div {
+    @apply absolute inset-0 backdrop-contrast-50 bg-redwood-dull/50;
+}
+button.nav-btn .nav-btn--cover picture {
+    @apply h-full w-full block;
+}
+button.nav-btn .nav-btn--cover img {
+    @apply h-full w-full object-cover;
+}
+
+button.hovered {
+    @apply text-rosy-brown
+}
+
+button.hovered .nav-btn--letter,
+button.nav-btn:hover .nav-btn--letter {
+@apply -rotate-12;
+}
+button.hovered .nav-btn--cover,
+button.nav-btn:hover .nav-btn--cover {
+    @apply block;
+}

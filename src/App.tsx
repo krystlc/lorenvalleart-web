@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import NavBtn from "./components/NavBtn";
 import Chevron from "@/assets/chevron.svg";
 import SectionHome from "./components/SectionHome";
@@ -45,6 +45,21 @@ const sections: {
   },
 ];
 
+function hoverNavBtns(elements: NodeListOf<Element>) {
+  async function simulateHover(el: Element) {
+    el.classList.add("hovered");
+    await new Promise((resolve) => setTimeout(resolve, 500));
+    el.classList.remove("hovered");
+  }
+
+  (async () => {
+    for (const el of elements) {
+      simulateHover(el);
+      await new Promise((resolve) => setTimeout(resolve, 100));
+    }
+  })();
+}
+
 function App() {
   const [selectedSection, setSelectedSection] =
     useState<React.ReactNode | null>(null);
@@ -70,6 +85,11 @@ function App() {
         setSelectedSection(null);
     }
   }
+
+  useEffect(() => {
+    const elements = document.querySelectorAll("header button");
+    hoverNavBtns(elements);
+  });
 
   return (
     <>
