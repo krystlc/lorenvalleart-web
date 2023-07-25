@@ -89,7 +89,7 @@ function App() {
   useEffect(() => {
     const elements = document.querySelectorAll("header button");
     hoverNavBtns(elements);
-  });
+  }, []);
 
   return (
     <>
